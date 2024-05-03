@@ -1,4 +1,4 @@
-Companion package to the following blog post: https://binblog.de/2024/05/03/gnome-gdm-theming/
+Companion package to the following blog post: https://binblog.de/2024/05/03/gnome-gdm-customization/
 
 gnome-shell-theme.gresource from Debian 12 and its contents are included for illustration only and are subject to the GNU General Public License.
 
