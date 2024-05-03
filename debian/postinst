@@ -1,0 +1,24 @@
+#!/bin/sh
+set -e
+case "$1" in
+    configure)
+        echo 'postinst/configure'
+        cp -v -p /usr/share/gnome-local-custom/dconf/profile/user /etc/dconf/profile/
+        cp -v -p /usr/share/gnome-local-custom/dconf/profile/gdm /etc/dconf/profile/
+        mkdir -v -p /etc/dconf/db/local.d
+        mkdir -v -p /etc/dconf/db/gdm.d
+        cp -v /usr/share/gnome-local-custom/dconf/db/gdm.d/* /etc/dconf/db/gdm.d/
+        cp -v /usr/share/gnome-local-custom/dconf/db/local.d/* /etc/dconf/db/local.d/
+        dconf update
+        update-alternatives \
+            --install /usr/share/gnome-shell/gnome-shell-theme.gresource \
+            gnome-shell-theme.gresource \
+            /usr/share/gnome-local-custom/gnome-shell-theme.gresource 20 --force
+
+
+    ;;
+esac
+
+#DEBHELPER#
+
+exit 0

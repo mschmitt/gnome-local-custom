@@ -1,0 +1,8 @@
+[org/gnome/shell]
+enabled-extensions=[ 'dash-to-panel@jderose9.github.com', 'no-overview@fthx' ]
+
+[org/gnome/shell/extensions/dash-to-panel]
+panel-positions='{"0":"LEFT"}'
+panel-lengths='{"0":100}'
+dot-style-focused='DOTS'
+dot-style-unfocused='DOTS'

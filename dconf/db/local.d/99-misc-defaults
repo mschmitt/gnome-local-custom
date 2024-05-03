@@ -1,0 +1,15 @@
+[org/gnome/desktop/wm/preferences]
+button-layout='appmenu:minimize,maximize,close'
+
+[org/gnome/terminal/legacy]
+theme-variant='dark'
+
+[org/gnome/desktop/interface]
+color-scheme='prefer-dark'
+gtk-theme='Adwaita-dark'
+
+[org/gnome/desktop/background]
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/gnome-local-custom/20230630_144313_DJI_0047.jpg'
+picture-uri-dark='file:///usr/share/backgrounds/gnome-local-custom/20230630_144313_DJI_0047.jpg'
+

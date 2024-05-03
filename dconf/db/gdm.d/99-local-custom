@@ -1,0 +1,4 @@
+[org/gnome/login-screen]
+logo=''
+banner-message-enable=true
+banner-message-text='Welcome to GDM'

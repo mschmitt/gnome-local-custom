@@ -1,0 +1,14 @@
+Source: gnome-local-custom
+Section: unknown
+Priority: optional
+Maintainer: Unknown <unkown@example.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.1
+Homepage: https://binblog.de
+Rules-Requires-Root: no
+
+Package: gnome-local-custom
+Architecture: all
+Depends: ${misc:Depends}, gnome-shell-extensions-extra, gnome-shell-extension-dash-to-panel
+Description: Gnome customization example package
+ Example implementation of the observations outlined on https://binblog.de
